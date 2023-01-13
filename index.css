@@ -1,0 +1,67 @@
+body{
+  background-color: black;
+  color: white;
+}
+.container{
+  background-color: rgb(242, 234, 240);
+  justify-content: center;
+  width: 50%;
+  margin-left: 26%;
+  margin-top: 10%;
+  text-align: center;
+}
+input[type=text],select{
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2 px solid blue;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=Email],select{
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2 px solid blue;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password],select{
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2 px solid blue;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+button{
+  width: 30%;
+  background-color: green;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: green;
+}
+.header{
+  width: 100%;
+  background-color: rgb(8, 8, 49);
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+.ui-define{
+  color: aqua;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
